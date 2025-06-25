@@ -15,6 +15,7 @@ Petal width (cm)
 
 The goal is to predict the species of the flower using these features.
 
+
 # Project Objectives
 Perform exploratory data analysis (EDA) to understand the data distribution
 Visualize feature relationships and class separability
@@ -29,10 +30,12 @@ Data Cleaning: Removed unnecessary columns like Id
 Checked and removed duplicate records
 Verified the dataset had no missing values
 
+
 # Data Visualization:
 Count plots, boxplots, violin plots, histograms, and scatter plots
 Pair plots to show class separability
 Correlation heatmap to understand feature relationships
+
 
 # Feature Engineering:
 Created new ratio-based features: sepal_ratio and petal_ratio
@@ -42,16 +45,19 @@ Used the IQR method to detect and remove outliers in sepal width
 ## Label Encoding:
 Converted Species and petal_size to numerical values using Label Encoding
 
+
 # Model Building:
 Split the data into training and testing sets
 Trained KNN models with different values of k
 Evaluated model performance using accuracy and classification report
 Identified the best k value through visualization
 
+
 # Results
 Iris-setosa was clearly distinguishable based on feature values.
 Iris-versicolor and Iris-virginica showed some overlap but were distinguishable using engineered features.
 The KNN classifier achieved high accuracy, especially with an optimal value of k.
+
 
 # Conclusion
 This project demonstrates how combining exploratory data analysis, feature engineering, and simple machine learning models like KNN can lead to effective and interpretable classification results. It also emphasizes the importance of understanding the data before modeling.
